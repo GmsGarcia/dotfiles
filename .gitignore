@@ -8,6 +8,9 @@
 !kitty/*
 !nitrogen/*
 !nvim/*
+!nvim/*/*
+!nvim/*/*/*
+!nvim/*/*/*/*
 !oh-my-posh/*
 !polybar/*
 !startup/*
