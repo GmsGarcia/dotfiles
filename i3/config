@@ -1,0 +1,23 @@
+include $HOME/.config/i3/audio.conf
+include $HOME/.config/i3/workspaces.conf
+include $HOME/.config/i3/mappings.conf
+include $HOME/.config/i3/visuals.conf
+
+set $mod Mod1
+
+# monitor variables
+set $fm DP-0
+set $sm DVI-D-0
+
+exec --no-startup-id dex --autostart --environment i3
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+exec --no-startup-id nm-applet
+exec --no-startup-id nitrogen --restore
+
+exec_always --no-startup-id picom -b
+exec_always ~/.config/polybar/i3.sh &
+exec_always $HOME/.config/startup/display.sh
+exec_always $HOME/.config/startup/dpi.sh
+
+# Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod

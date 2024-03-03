@@ -1,0 +1,59 @@
+{
+  "parser-directories": [
+    "/home/gmsgarcia/github",
+    "/home/gmsgarcia/src",
+    "/home/gmsgarcia/source",
+    "/home/gmsgarcia/projects",
+    "/home/gmsgarcia/dev",
+    "/home/gmsgarcia/git"
+  ],
+  "theme": {
+    "variable.builtin": {
+      "bold": true
+    },
+    "variable.parameter": {
+      "underline": true
+    },
+    "embedded": null,
+    "tag": 18,
+    "constructor": 136,
+    "string": 28,
+    "type": 23,
+    "number": {
+      "color": 94,
+      "bold": true
+    },
+    "punctuation.delimiter": 239,
+    "constant": 94,
+    "property": 124,
+    "module": 136,
+    "function.builtin": {
+      "color": 26,
+      "bold": true
+    },
+    "function": 26,
+    "comment": {
+      "color": 245,
+      "italic": true
+    },
+    "constant.builtin": {
+      "color": 94,
+      "bold": true
+    },
+    "operator": {
+      "color": 239,
+      "bold": true
+    },
+    "punctuation.bracket": 239,
+    "type.builtin": {
+      "color": 23,
+      "bold": true
+    },
+    "attribute": {
+      "italic": true,
+      "color": 124
+    },
+    "keyword": 56,
+    "string.special": 30
+  }
+}
