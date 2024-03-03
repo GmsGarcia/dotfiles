@@ -1,0 +1,14 @@
+# Ignore everything
+*
+# Don't ignore directories, so we can recurse into them
+!.gitignore
+!fish/*
+!i3/*
+!kitty/*
+!nitrogen/*
+!nvim/*
+!oh-my-posh/*
+!polybar/*
+!startup/*
+!tmux/*
+!tree-sitter/*
