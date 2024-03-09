@@ -43,6 +43,6 @@ if status is-interactive
     fish_add_path $HOME/.cargo/bin
     fish_add_path /usr/local/go/bin
     if type -q oh-my-posh # check if oh-my-posh exist
-        oh-my-posh init fish --config ~/.config/oh-my-posh/leonasdev.omp.json | source
+        oh-my-posh init fish --config ~/.config/oh-my-posh/gmsgarcia.omp.json | source
     end
 end

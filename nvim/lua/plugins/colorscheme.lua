@@ -54,7 +54,7 @@ return {
       })
 
       vim.g.solarized_termtrans = 1
-      vim.cmd("colorscheme solarized")
+      vim.cmd("colorscheme carbonfox")
     end,
   },
 
